@@ -654,10 +654,8 @@ normalize_seq = True
 
 which applies
 
-\[
-x' =
-\frac{x-\mu_x}{\sigma_x}.
-\]
+$x' =\frac{x-\mu_x}{\sigma_x}$.
+
 
 However, the current default configuration is:
 
@@ -788,52 +786,18 @@ This improves reproducibility across experiments, although GPU operations may st
 
 ## Future Work
 
-Potential extensions include:
 
-- Leave-one-subject-out cross-validation
-- Evaluation across multiple skin-tone groups
-- Nonlinear ratio-of-ratios calibration
-- Explicit AC/DC PPG decomposition
-- Additional physiological covariates
-- Uncertainty-aware SpO₂ estimation
-- Subject-independent calibration
-- Larger temporal encoders
-- Transformer-only signal encoders
-- FiLM-conditioning ablation studies
-- Residual-regularization ablation studies
-- Comparison with pure end-to-end deep learning
 
 ---
 
 ## Disclaimer
 
-This repository is intended for **research purposes**.
-
-The predicted SpO₂ values should not be considered clinically validated measurements and should not be used for medical diagnosis, patient monitoring, or treatment decisions without appropriate clinical validation and regulatory approval.
-
----
 
 ## Citation
 
-If you use this repository in academic work, please cite the corresponding publication once available:
 
-```bibtex
-@article{yourcitation,
-  title   = {Physics-Guided Multimodal SpO2 Estimation},
-  author  = {...},
-  journal = {...},
-  year    = {...}
-}
-```
-
----
 
 ## License
 
-Add the license appropriate for your project, for example:
-
-```text
-MIT License
-```
 
 or the license required by the associated dataset, institution, or publication.
