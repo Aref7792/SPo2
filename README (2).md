@@ -19,11 +19,12 @@ $\hat{SpO}_2^{\text{linear}} = a + bR$
 and learns only a residual correction:
 
 
-$\widehat{\mathrm{SpO}_2}
+$$\widehat{\mathrm{SpO}_2}
 =
 \widehat{\mathrm{SpO}_2}^{\mathrm{linear}}
 +
-\Delta \mathrm{SpO}_2^{\mathrm{NN}}$
+\Delta \mathrm{SpO}_2^{\mathrm{NN}}
+$$
 
 This design provides an explicit physics-based baseline while allowing the neural network to model nonlinear effects that are not captured by the conventional calibration equation.
 
