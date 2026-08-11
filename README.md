@@ -748,28 +748,4 @@ set_seed(42)
 
 ---
 
-## Potential Extensions
 
-Possible future experiments include:
-
-- Leave-one-subject-out cross-validation
-- Multi-subject validation
-- Applying FiLM to both Red and IR streams
-- Comparing Red-only and IR-only models
-- Removing skin-tone conditioning
-- Removing cross-attention
-- Removing temporal self-attention
-- Removing residual regularization
-- Comparing against a pure neural SpO₂ estimator
-- Nonlinear calibration of the ratio-of-ratios branch
-- Explicit AC/DC signal decomposition
-- Skin-tone subgroup evaluation
-- Uncertainty estimation
-
----
-
-## Disclaimer
-
-This implementation is intended for **research purposes only**.
-
-It has not been clinically validated and should not be used for medical diagnosis, patient monitoring, or treatment decisions without appropriate clinical and regulatory validation.
