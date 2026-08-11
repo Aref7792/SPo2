@@ -13,9 +13,8 @@ with a classical pulse-oximetry calibration model and a neural residual correcti
 
 Instead of asking the neural network to estimate SpO₂ entirely from scratch, the architecture starts from a conventional ratio-of-ratios estimate
 
-\[
-\hat{SpO}_2^{\text{linear}} = a + bR
-\]
+
+$\hat{SpO}_2^{\text{linear}} = a + bR$
 
 and learns only a residual correction:
 
