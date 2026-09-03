@@ -46,13 +46,7 @@ $$
 
 The learned network predicts only a bounded residual correction:
 
-$$
-\widehat{SpO_2}
-=
-SpO_{2,\mathrm{linear}}
-+
-\Delta
-$$
+$$\widehat{SpO_2}=SpO_{2,\mathrm{linear}}+\Delta$$
 
 where
 
