@@ -172,12 +172,9 @@ No SpO2 labels are used.
 ### Objective
 
 $$
-\mathcal{L}_{\mathrm{pretrain}}
-=
-\mathrm{MSE}(
+\mathcal{L}_{\mathrm{pretrain}}=\mathrm{MSE}(
 [\widehat{RED},\widehat{IR}],
-[RED,IR]
-)
+[RED,IR])
 $$
 
 ### Configuration
